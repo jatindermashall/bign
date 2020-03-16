@@ -1,5 +1,5 @@
 {
-  "name": "Biggmind",
+  "name": "client",
   "version": "1.0.0",
   "description": "biggmind",
   "author": "jatinder kumar",
@@ -11,8 +11,9 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "@nuxtjs/axios": "^5.3.6",
+    "nuxt": "^2.11.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "proxy": "http://localhost:3000"
 }
